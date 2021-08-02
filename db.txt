@@ -1,0 +1,10 @@
+CREATE TABLE user (
+id INT(6)  AUTO_INCREMENT PRIMARY KEY,
+firstname VARCHAR(30) NOT NULL,
+lastname VARCHAR(30) NOT NULL,
+email VARCHAR(50),
+regdate TIMESTAMP
+);
+INSERT INTO `test`.`user` (`id`, `firstname`, `lastname`, `email`, `regdate`) VALUES (1, 'Sameer', 'Yadav', 'sameer.yadav@mail.com', '2021-08-01 20:21:49');
+INSERT INTO `test`.`user` (`id`, `firstname`, `lastname`, `email`, `regdate`) VALUES (2, 'Karan', 'Taware', 'karan.taware@mail.com', '2021-08-01 20:21:49');
+INSERT INTO `test`.`user` (`id`, `firstname`, `lastname`, `email`, `regdate`) VALUES (3, 'Pooja', 'Khankar', 'pooja.khankar@mail.com', '2021-08-01 20:21:49'); 
