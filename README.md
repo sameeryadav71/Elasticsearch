@@ -11,4 +11,4 @@
 
 5. To run the logstash go to /bin directory and execute "logstash -f 'fileName'" where filename is nothing but the file which we created in previous step.
 
-6. To check the data in elasticsearch go to "http://localhost:9200/test/_search?pretty=true" where test is the database name.
+6. To check the data in elasticsearch go to "http://localhost:9200/test/_search?pretty=true" where test is nothing but the index name which we have given in .conf file.
