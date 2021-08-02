@@ -14,3 +14,5 @@
 6. To check the data in elasticsearch go to "http://localhost:9200/test/_search?pretty=true" where test is nothing but the index name which we have given in .conf file.
 
 7. To check all the indices in elasticsearch go to "http://localhost:9200/_cat/indices".
+
+8. To view all the data for specific index go to "http://localhost:9200/test/_search" where test is the index name.
