@@ -1,4 +1,4 @@
-1. To  download Elasicsearch, Logstash:/n
+1. To  download Elasicsearch, Logstash:
   https://www.elastic.co/downloads/elasticsearch
   https://www.elastic.co/downloads/logstash
 
