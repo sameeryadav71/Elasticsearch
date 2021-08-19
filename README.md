@@ -7,7 +7,7 @@
 
 3. Check elasticsearch on browser at "http://localhost:9200" (9200 is default port for elasticsearch we can change this)
 
-4. For adding data to elasticsearch from database we need to create a file(https://github.com/sameeryadav71/Elasticsearch/blob/main/logstash-test.customer.conf) in /bin folder of    logstash directory by adding proper driver class and elastisearch host.
+4. For adding data to elasticsearch from database we need to create a file(https://github.com/sameeryadav71/Elasticsearch/blob/main/logstash-test.user.conf) in /bin folder of    logstash directory by adding proper driver class and elastisearch host.
 
 5. To run the logstash go to /bin directory and execute "logstash -f 'fileName'" where filename is nothing but the file which we created in previous step.
 
